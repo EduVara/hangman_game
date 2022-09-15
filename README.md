@@ -19,7 +19,8 @@ Para ejecutar el proyecto hay que seguir los siguientes pasos:
   4o PASO: 
     Llamamos a la segunda funcion principal para empezar a probar letras:
       {word, state} = Hangman.take_guess("letra", state)
-            --> Donde pone "letra", hay que poner una letra, si se mete mas de una el programa te indica que solo se puede poner de 1 en 1
+            --> Donde pone "letra", hay que poner una letra, si se mete mas de una el programa te indica que 
+            solo se puede poner de 1 en 1
   5o PASO:
     Repetir continuamente el 4o PASO con diferentes letras hasta ganar o perder la partida
 
