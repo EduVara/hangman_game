@@ -71,7 +71,7 @@ defmodule Hangman do
 
     if limit == 0 do
       IO.puts(" GAME OVER!!!!!!!!!!!! ")
-      System.halt(0)
+      System.halt(0) # Instruccion de parada del sistema
     end
 
     if length(matches) == length do
